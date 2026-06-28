@@ -123,4 +123,12 @@ FW_VERSIONS_EXT = {
       b'\xf1\x00BC3 LKA  AT EUR LHD 1.00 1.01 99211-Q0100 261'
     ],
   },
+  CAR.HYUNDAI_IONIQ_HEV_2020_NON_SCC: {
+    (Ecu.eps, 0x7d4, None): [
+      b'\xf1\x00AE  MDPS C 1.00 1.01 56310/G2510 4APHC101',
+    ],
+    (Ecu.fwdCamera, 0x7c4, None): [
+      b'\xf1\x00AEH MFC  AT USA LHD 1.00 1.01 95740-G2600 190819',
+    ],
+  },
 }

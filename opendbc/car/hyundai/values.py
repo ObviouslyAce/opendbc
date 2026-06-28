@@ -680,6 +680,11 @@ class CAR(Platforms):
     flags=HyundaiFlags.CHECKSUM_CRC8,
     sp_flags=HyundaiFlagsSP.NON_SCC_RADAR_FCA,
   )
+  HYUNDAI_IONIQ_HEV_2020_NON_SCC = HyundaiNonSccPlatformConfig(
+  [HyundaiNonSccCarDocs("Hyundai Ioniq Hybrid Non-SCC 2020", car_parts=CarParts.common([CarHarness.hyundai_h]))],
+  CarSpecs(mass=1520, wheelbase=2.7, steerRatio=13.9, tireStiffnessFactor=0.385),
+  flags=HyundaiFlags.HYBRID,
+)
 
 
 class Buttons:
